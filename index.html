@@ -3,79 +3,79 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+    <link rel="stylesheet" href="profile.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <title>Personal Profile</title>
 </head>
 <body>
-    <div class="left-top-image"></div>
-    <div class="right-top-image"></div>
-    <div class="left-bottom-image"></div>
-    <div class="right-bottom-image"></div>
-    <div id="wrapper">
-    
-        <div class="logo">
-            <img src="https://res.cloudinary.com/startng/image/upload/v1586533446/Piggyvest%20design/logo_gp6qc7.svg" alt="">
-        </div>
-        
-        <div class="shape">
-            
-            <header class="header">
-                <h1>Create a Secure Account</h1>
-                <p >Welcome to the future of Savings &amp; Investments</p>
-            </header>
-            <div id="form">
-                <form class="form">
-                    <div class="">
-                        <label class="" for="">Full Name</label>
-                        <input class="fullname" name="fullname" type="text" id="" placeholder="Full Name" value="">
-                    </div>
-                    <div class="">
-                        <label class="" for="">Email Address</label>
-                        <input class="email" name="email" type="email" id="" placeholder="Email Address" value="">
-                    </div>
-                    <div class="">
-                        <label class="" for="">Phone Number</label>
-                        <input class="phone-number" name="phone" type="tel" id="" placeholder="Phone Number" value=""></div>
-                    <div class="">
-                            <label class="" for="">Password</label>
-                            <input class="password" name="password" type="password" id="" placeholder="Password" value="">
-                    </div>
-                    <div class="">
-                            <label class="" for="">Referrer Phone or Promo Code (Optional)</label>
-                            <input class="referral" name="promocode" type="text" id="" placeholder="Referrer Phone Or Code" value="">
-                    </div>
-                    <div class="select">
-                        <label class="" for="">How Did You Hear About Us? (Optional)</label>
-                        <div class="select">
-                            <select name="select-btn"  class="source">
-                                
-                                <optgroup>
-                                <option value="">Click To Select</option>
-                                <option value="">Startng</option>
-                                <option value="">Facebook</option>
-                                <option value="">Instagram</option>
-                                <option value="">Twitter</option>
-                                </optgroup>
-                                
-                            </select>
-                        </div>                                    
-                                    
-                    </div>
-                    <div></div>
-                            <input name="referralsource" type="hidden" value="">
-                    </div>
-                    
-                    <div class="btn">
-                        <button class="button" type="submit">Create Account</button>
-                    </div>
-                </form>
-                
-            </div>
-            <a class="login" href="">Already have an account? Log In</a>
-        </div>
-         
-        
+    <div class="profile-title">
+        <h1>Personal Profile</h1>
     </div>
-    
+    <div class="profile-card">
+        <div class="image-container">
+            <img src="https://res.cloudinary.com/startng/image/upload/v1567671105/WhatsApp_Image_2019-09-04_at_9.55.38_AM_hjwh3x.jpg" alt="image" width="100%">
+        </div><hr>
+            
+        
+        <div class="main-container">
+            <div class="summary">
+                <h1>About Me</h1>
+                <p>Hi, I am <strong>Jude Igwe,</strong> a graduate of Electrical Electronic Engineering. I am currently a Network Engineer. I so much love software development and very passionate about becoming a Front-End Software Developer. Aside writing codes, I am a music lover and a book worn. Kindly find other details about me below, and don't hesitate to contact me through the varius links below. </p><hr>
+            </div>
+            <h1>Bio Data</h1>
+            <a href=""><p><i class="fa fa-slack info"></i>lazyCoder</p></a>
+            <a href=""><p><i class="fa fa-home info"></i>Ebonyi State</p></a>
+            <a href=""><p><i class="fa fa-calendar info"></i>27<sup>th</sup> Oct </p></a>
+            <a href=""><p><i class="fa fa-map-marker info"></i>Danbare Kano</p></a>
+            <a href=""><p><i class="fa fa-briefcase info"></i>Network Engineer</p></a>
+            <a href=""><p><i class="fa fa-envelope info"></i>igwejude@gmail.com</p></a>
+            <a href=""><p><i class="fa fa-mobile info"></i> 07039407943</p></a>
+            <a href="https://facebook.com/stjudenice" target="_blank"><i class="fa fa-facebook info"></i>Facebook</a>
+            <a href="https://twitter.com/jic4real" target="_black"><i class="fa fa-twitter info" ></i>twitter</a>
+            <a href="https://www.linkedin.com/in/igwe-jude-b9040a14a" target="_blank"><i class="fa fa-linkedin info"></i>Linkedin</a>
+            <hr>
+            <div class="skill">
+                <h1><i class=""></i>Skills</h1>
+            </div>
+            
+            <p>Javascript</p>
+            <div class="skill-bar">
+                <div class="progress-bar" style="width: 50%;">50%</div>
+            </div>
+            <p>CSS</p>
+            <div class="skill-bar">
+                <div class="progress-bar" style="width: 80%;">80%</div>
+            </div>
+            <p>HTML</p>
+            <div class="skill-bar">
+                <div class="progress-bar" style="width: 70%;">70%</div>
+            </div>    
+        </div><hr>
+        <div class="form-items">
+            <div class="contact-title">
+                <h1>Contact Me</h1>
+            </div>
+            <div class="form form-div">
+                
+                <div class="form-items">
+                  <input type="text" class="input" placeholder="Name" required min="4">
+                  <i class="fas fa-user"></i>
+                </div>
+                <div class="form-items">
+                  <input type="email" class="input" placeholder="Email" required>
+                  <i class="fas fa-envelope"></i>
+                </div>
+                <div class="form-items">
+                  <textarea class="input message" cols="30" rows="10" placeholder="Message....." maxlength="20"></textarea>
+                </div>
+
+            </div>
+            <div class="btn" type="button" onclick="alert('Message Delivered')" value="Submit">
+                Submit</i>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
